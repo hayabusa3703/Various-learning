@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+	background-color: blue;
+	height:180px;
+	width: 100%;
+	position: fixed;
+
+}
+
+.header-left{
+	background-color: pink;
+	height: 180px;
+	width: 300px;
+}
+
+.contents{
+	background-color: gray;
+	height: calc(100% - 180px);
+	padding-top:180px;
+	width: 100%;
+}
+
+
+.left-content{
+	background-color: red;
+	width:300px;
+	height : 100%;
+	float: left;
+}
+
+.contents-main{
+	height: 100%;
+	width: calc(100% - 300px);
+	background-color: yellow;
+	float: right;
+}
+
+.footer{
+	height: 60px;
+	width: 100%;
+	background-color: black;
+    position: absolute;
+
+	bottom: 0;
+
+}
