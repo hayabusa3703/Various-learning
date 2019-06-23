@@ -1,4 +1,4 @@
-// モーダルの表示の学習
+// モーダルの表示の学習(表示の学習)
 
 import React from 'react';
 
@@ -8,7 +8,7 @@ class Lesson extends React.Component {
     this.state = {isModalOpen: false};
   }
   
-  // handleClickLessonメソッドを定義してください
+  
   handleClickLesson(){
     this.setState({isModalOpen: true});
   }
@@ -33,7 +33,6 @@ class Lesson extends React.Component {
     }
     return (
       <div className='lesson-card'>
-        {/* onClickイベントを追加してください */}
         <div
           className='lesson-item'
           onClick = {()=>{this.handleClickLesson()}}
