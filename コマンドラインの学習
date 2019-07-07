@@ -1,0 +1,21 @@
+//ディレクトリの作成
+mkdir html
+
+//ファイルの作成
+touch beginner.txt
+
+
+//ディレクトリのコピー
+
+cp -r HTML Python
+
+//ファイル名の変更
+
+mv beginner.txt dojo.txt
+
+//ファイルの削除
+
+rm project1.txt
+
+//ディレクトリの削除
+rm -r Pythons
